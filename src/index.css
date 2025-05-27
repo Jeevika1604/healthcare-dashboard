@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #2f3299;
+  --primary-100: #f5f8ff;
+  --primary-200: #e9f1fb;
+  --primary-300: #d8def7;
+  --primary-400: #a3a8d0;
+  --secondary-color: #1adcec;
+  --tertiary-color: #a3a7ad;
+  --quaternary-color: #d3d6dc;
+}
+
+.sidebar {
+  height: 100%;
+  background-color: var(--primary-100);
+  padding: 40px 24px;
+}
+
+.logo {
+  color: var(--secondary-color);
+  font-size: 28px;
+  font-weight: 700;
+}
+.logo span {
+  color: var(--primary);
+}
+
+.list-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--quaternary-color);
+}
+
+.active-menu {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.menu-item {
+  color: var(--tertiary-color);
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.search {
+  border: 2px solid var(--quaternary-color);
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.dropdown {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.card {
+  background-color: var(--primary-100);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+.card-img {
+  width: 30%;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.card-date {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--quaternary-color);
+}
+
+.lungs-progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: var(--quaternary-color);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.lungs-progress-bar div {
+  height: 100%;
+  width: 70%; /* You can set this dynamically */
+  background-color: #aa4446;
+  border-radius: 999px;
+  border: 2px solid #843636;
+}
+
+.teeth-progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: var(--quaternary-color);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.teeth-progress-bar div {
+  height: 100%;
+  width: 70%; /* You can set this dynamically */
+  background-color: #74cebd;
+  border-radius: 999px;
+  border: 2px solid #74bcb0;
+}
+
+.bone-progress-bar {
+  width: 100%;
+  height: 12px;
+  background-color: var(--quaternary-color);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.bone-progress-bar div {
+  height: 100%;
+  width: 70%; /* You can set this dynamically */
+  background-color: #f97057;
+  border-radius: 999px;
+  border: 2px solid #dc7665;
+}
+
+.heart-btn {
+  background-color: var(--primary);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px;
+  width: 120px;
+}
+.leg-btn {
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  width: 120px;
+}
+
+.human-body-img {
+  width: 65%;
+}
+
+.profile {
+  width: 28%;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+}
+.add-icon{
+  padding: 6px;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: white;
+}
+h5{
+  color: var(--primary);
+  font-size: 18px;
+  font-weight: 700;
+}
+.timings{
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--primary-100);
+}
+.doctor-name{
+   font-size: 12px;
+  font-weight: normal;
+  color: var(--primary-100);
+}
+.dentist-card{
+  padding: 16px;
+  background-color: var(--primary);
+}
+.appointment-card{
+   padding: 16px;
+  background-color: var(--primary-300);
+}
+h4{
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 700;
+}
+.days{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-400);
+}
